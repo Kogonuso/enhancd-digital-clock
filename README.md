@@ -1,1 +1,1 @@
-# enhancd-digital-clock
+# enhanced-digital-clock
