@@ -1,0 +1,75 @@
+body {
+  margin: 0; /**remove default margin*/
+  display: flex; /**bring everything to the center horizontally*/
+  flex-direction: column; /**brings everything back to normal*/
+  align-items: center; /**put everything to the center horizontally*/
+  height: 32vh; /** height with vh and justify-content center: put everything to the center vertally*/
+  justify-content: center; /** height with vh and justify-content center: put everything to the center vertally*/
+  /* background: url("https://images.unsplash.com/photo-1495954484750-af469f2f9be5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"); */
+  /* background: url("https://images.unsplash.com/photo-1453955994444-36bcd2f979fb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"); */
+  background: url('danist-soh-BoYm.jpg');
+  background-size: cover;
+  overflow: hidden;
+}
+h2 {
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  font-size: 20px;
+  text-align: center;
+  color:white
+}
+
+.clock{
+    display: flex;
+}
+
+.clock div{
+margin: 5px; /** add space between the divs*/
+position: relative;
+}
+
+.clock span{
+    width: 100px;
+    height: 80px;
+    background-color: none;
+    opacity: 1;
+    color:rgb(235, 241, 141);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    font-size: 50px;
+    /* Horizontal shadow 2px vertical shadow 2px blurring 4px*/
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    border-radius: 7px;
+}
+
+.clock .text{
+    font-size: 12px;
+    height: 30px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background-color: rgb(166, 166, 246);
+    top:77px;/** move it up*/
+    color: black;
+    opacity: 1;
+    position: absolute;
+}
+.clock .date{
+    font-size: 20px;
+    height: 10px;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    /* background-color: rgb(188, 188, 240); */
+    color:yellowgreen;
+    opacity: 0.8;
+}
+
+.clock #ampm{
+    position: absolute;
+    top: 33px;/*brings it down*/
+    width: 60px;
+    height: 30px;
+    font-size: 25px;
+    background-color: hotpink;
+}
